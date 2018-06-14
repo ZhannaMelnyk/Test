@@ -1,0 +1,27 @@
+body {
+    color: red;
+}
+
+.proba {
+    border: 2px solid green;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: lavender;
+  }
+    .proba {
+        border-width: 5px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: mediumvioletred;
+  }
+    .proba {
+        border-width: 10px;
+        text-align: center;
+    }
+}
